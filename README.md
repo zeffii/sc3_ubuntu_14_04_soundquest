@@ -66,5 +66,12 @@ Weird that the index is pacmd of audiophile was 0 but here it is listed as card 
 	Kernel driver in use: snd_ice1724
 ```
 
+## SC server and Catia show signal. 
+
+I'm even able to record the signal using Audacity. So this seems to be about routing Jack Dummy to Pulse Audio
+
+![shome](https://cloud.githubusercontent.com/assets/619340/7198538/83ffac9e-e4ed-11e4-919f-e4ee62f0cba7.png)
+
+
 
 
