@@ -8,6 +8,8 @@ I'm writing this repository to chronicle my experience and hopefully it will con
 
 some commands:
 
+### pacmd
+
 **show all pulseaudio detected soundcards**
 ```
 pacmd
@@ -21,3 +23,24 @@ Yes, looks like i have alsa.card_name = "M Audio Audiophile192" . That's right, 
 Server.local.options.device = "M Audio Audiophile192";
 ```
 ? who knows.. information is out there, but BARF almost too disparate to read, or maybe i'm not receptive enough to the overal message.
+
+
+### [sudo] aplay -l
+
+```
+**** List of PLAYBACK Hardware Devices ****
+card 0: Intel [HDA Intel], device 0: ALC882 Analog [ALC882 Analog]
+  Subdevices: 0/1
+  Subdevice #0: subdevice #0
+card 0: Intel [HDA Intel], device 1: ALC882 Digital [ALC882 Digital]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 1: Audiophile192 [M Audio Audiophile192], device 0: ICE1724 [ICE1724]
+  Subdevices: 0/1
+  Subdevice #0: subdevice #0
+card 1: Audiophile192 [M Audio Audiophile192], device 1: ICE1724 IEC958 [ICE1724 IEC958]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+```
+
+Weird that the index is pacmd of audiophile was 0 but here it is listed as card 1, device 0. should this concern me?
