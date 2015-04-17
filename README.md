@@ -72,6 +72,7 @@ I'm even able to record the signal using Audacity. So this seems to be about rou
 
 ![shome](https://cloud.githubusercontent.com/assets/619340/7198538/83ffac9e-e4ed-11e4-919f-e4ee62f0cba7.png)
 
+http://www.alsa-project.org/main/index.php/Asoundrc
 
 
 
