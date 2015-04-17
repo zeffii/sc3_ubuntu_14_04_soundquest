@@ -44,3 +44,27 @@ card 1: Audiophile192 [M Audio Audiophile192], device 1: ICE1724 IEC958 [ICE1724
 ```
 
 Weird that the index is pacmd of audiophile was 0 but here it is listed as card 1, device 0. should this concern me?
+
+### lspci -v | grep -A7 -i "audio"
+
+```
+00:1b.0 Audio device: Intel Corporation NM10/ICH7 Family High Definition Audio Controller (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 81d8
+	Flags: bus master, fast devsel, latency 0, IRQ 47
+	Memory at febfc000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+
+00:1c.0 PCI bridge: Intel Corporation NM10/ICH7 Family PCI Express Port 1 (rev 01) (prog-if 00 [Normal decode])
+--
+01:00.0 Multimedia audio controller: VIA Technologies Inc. VT1720/24 [Envy24PT/HT] PCI Multi-Channel Audio Controller (rev 01)
+	Subsystem: VIA Technologies Inc. Device 3632
+	Flags: bus master, medium devsel, latency 64, IRQ 21
+	I/O ports at 8c00 [size=32]
+	I/O ports at 8880 [size=128]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_ice1724
+```
+
+
+
