@@ -13,7 +13,7 @@ some commands:
 pacmd
 >>> list-sinks
 ```
-Yes, looks like i have alsa.card_name = "M Audio Audiophile192" . That's right, i remember buying it. I think this means that this line must exist in startup.scd
+Yes, looks like i have alsa.card_name = "M Audio Audiophile192" . That's right, i remember buying it. I think this means that this line must exist in `/home/zeffii/.config/SuperCollider/startup.scd`
 
 ```
 Server.local.options.device = "M Audio Audiophile192";
