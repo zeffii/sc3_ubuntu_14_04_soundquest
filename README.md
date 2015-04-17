@@ -13,6 +13,8 @@ some commands:
 pacmd
 >>> list-sinks
 ```
+[output here](https://gist.github.com/zeffii/04c87cf25e2b20e69eea)
+
 Yes, looks like i have alsa.card_name = "M Audio Audiophile192" . That's right, i remember buying it. I think this means that this line must exist in `/home/zeffii/.config/SuperCollider/startup.scd`
 
 ```
