@@ -13,4 +13,9 @@ some commands:
 pacmd
 >>> list-sinks
 ```
-Yes, looks like i have alsa.card_name = "M Audio Audiophile192" . That's right, i remember buying it.
+Yes, looks like i have alsa.card_name = "M Audio Audiophile192" . That's right, i remember buying it. I think this means that this line must exist in startup.scd
+
+```
+Server.local.options.device = "M Audio Audiophile192";
+```
+? who knows.. information is out there, but BARF almost too disparate to read, or maybe i'm not receptive enough to the overal message.
